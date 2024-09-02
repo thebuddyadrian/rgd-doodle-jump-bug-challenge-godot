@@ -22,9 +22,9 @@ func _physics_process(delta):
 		
 		# Make player face in the movement direction
 		if get_global_mouse_position().x > position.x:
-			$AnimatedSprite.scale.x = 1
+			$Sprite.scale.x = 1
 		elif get_global_mouse_position().x < position.x:
-			$AnimatedSprite.scale.x = -1
+			$Sprite.scale.x = -1
 
 
 func jump():
